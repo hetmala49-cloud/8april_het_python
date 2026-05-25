@@ -1,0 +1,13 @@
+#49
+# Write a Python function to calculate the factorial of a number (a non-negative integer)
+def factorial(n):
+    result = 1
+
+    for i in range(1, n + 1):
+        result = result * i
+
+    return result
+
+num = int(input("Enter a number: "))
+
+print("Factorial =", factorial(num))
